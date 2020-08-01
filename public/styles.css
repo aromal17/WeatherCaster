@@ -1,0 +1,26 @@
+body{
+    background: #b8b8b8;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    
+  }
+  .change-location input{
+      border-radius: 50px;
+  }
+  
+  .container{
+    max-width: 400px;
+    border-radius: 50px;
+    
+  }
+  .card{
+    border-radius: 50px;
+  }
+  .icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+    
+  }
