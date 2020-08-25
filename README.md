@@ -1,4 +1,5 @@
-#WeatherCaster
+WeatherCaster
+
 Web application developed using API calls from Accuweather API to retrieve the weather data and hosted using firebase hosting.
 
 Working:
