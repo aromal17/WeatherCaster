@@ -3,23 +3,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/955c1f5ef1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/cloud.png">
 </head>
-<body>
+<body class="img-fluid">
 
     <div class="container my-5 mx-auto">
-        <h1 class="text-muted text-center my-4">Weather App</h1>
+        <h1 class="heading my-3">WeatherCaster</h1>
 
-        <form class="change-location my-4 text-muted text-center">
-            <label for="city">Enter the location for weather information</label>
-            <input type= "text" name="city" class="form-control p-4">
+        <form class="change-location">
+            <!-- <label for="city">Enter the location for weather information</label> -->
+            <input type= "text" name="city" class="form-control p-4" placeholder="Enter city name">
+
         </form>
 
-        <div class="card shadow-lg rounded d-none">
+        <div class="card shadow-lg d-none">
             <img src="https://via.placeholder.com/400x300" class="time card-img-top">
-            <div class="icon bg-light mx-auto text-center">
-                <img src="" alt="">
+            <div class="icon">
+                <img src="" alt="day/night image">
             </div>
             <div class="text-muted text-uppercase text-center details">
                 <h5 class="my-3">City name</h5>
@@ -28,6 +32,7 @@
                     <span>temp</span>
                     <span>&deg;C</span>
                 </div>
+                <button type="button" class="btn btn-outline-dark moreinfo">More Info<i class="fas fa-info-circle"></i><a href=""></a></button>;
             </div>
         </div>
         
@@ -36,5 +41,6 @@
     
     <script src='scripts/forecast.js'></script>
     <script src='scripts/app.js'></script>
+
 </body>
 </html>
