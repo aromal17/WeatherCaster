@@ -1,4 +1,7 @@
-# weather-site
-Dynamic single page web application developed using Accuweather API to retrieve the weather data.
+#WeatherCaster
+Web application developed using API calls from Accuweather API to retrieve the weather data and hosted using firebase hosting.
 
-link : https://weatherab17.web.app/
+Working:
+The users can enter the city name to the text field and a brief weather data will be displayed along with a more info button which will redirect the user directly to accuweather website showing the detailed information regarding the entered city.
+
+URL : https://weatherab17.web.app/
