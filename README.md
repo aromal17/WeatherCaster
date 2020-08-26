@@ -12,3 +12,4 @@ Use the API key and insert it to forecast.js as shown below:
 const key='<<enter your key here>>';
 
 ```
+Live @ https://weathercaster-17.web.app/
